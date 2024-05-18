@@ -1,5 +1,9 @@
-h1 {
-font-family: Impact, sans-serif;
-color: #00008B;
+p { color: red; font-size: 16px; }
+a { color: green; font-size: 16px; }
+body {color: green;} 
+img { 
+ transition: transform .3s ease-in-out 
 }
-	  
+a: hover #img1 , a:focus #img1 {
+ transform: scale(1.5);
+}
